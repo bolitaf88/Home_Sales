@@ -88,7 +88,7 @@ This assignment aimed to conduct data analysis using Spark DataFrames, focusing 
 - Parquet: Leveraged for optimized storage and querying of partitioned data.
 
 ## Aknowledgements 
-**Justin Bisal** - TA
-**James NewMan** - TA
-**Liang Yam** - TA
+- **Justin Bisal** - TA
+- **James NewMan** - TA
+- **Liang Yam** - TA
 
