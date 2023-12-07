@@ -87,7 +87,7 @@ This assignment aimed to conduct data analysis using Spark DataFrames, focusing 
 - SQL: Employed for formulating queries on Spark DataFrames.
 - Parquet: Leveraged for optimized storage and querying of partitioned data.
 
-## Aknowledgements 
+## Aknowledgement
 - **Justin Bisal** - TA
 - **James Newman** - TA
 - **Liang Yam** - TA
