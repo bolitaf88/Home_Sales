@@ -2,6 +2,7 @@
 
 ### N/B The task was accomplished on Google Colab due to challenges encountered with installing PySpark on the local machine. 
 Initially, we installed `PySpark` for `Google Colab` using the following code. `Tip:` It's essential to ensure compatibility by selecting the version that aligns with your local machine's Python version. For instance, in my case, the Python version was `3.5.0.`
+
 import os
 # Find the latest version of spark 3.x  from http://www.apache.org/dist/spark/ and enter as the spark version
 # For example:
