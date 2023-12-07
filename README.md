@@ -4,23 +4,27 @@
 Initially, we installed `PySpark` for `Google Colab` using the following code. `Tip:` It's essential to ensure compatibility by selecting the version that aligns with your local machine's Python version. For instance, in my case, the Python version was `3.5.0.`
 
 import os
-# Find the latest version of spark 3.x  from http://www.apache.org/dist/spark/ and enter as the spark version
+# Find the latest version of Spark 3.x from http://www.apache.org/dist/spark/ and enter as the spark version
 # For example:
 # spark_version = 'spark-3.5.0'
 spark_version = 'spark-3.5.0'
-os.environ['SPARK_VERSION']=spark_version
+os.environ['SPARK_VERSION'] = spark_version
+
 # Install Spark and Java
 !apt-get update
 !apt-get install openjdk-11-jdk-headless -qq > /dev/null
 !wget -q http://www.apache.org/dist/spark/$SPARK_VERSION/$SPARK_VERSION-bin-hadoop3.tgz
 !tar xf $SPARK_VERSION-bin-hadoop3.tgz
 !pip install -q findspark
+
 # Set Environment Variables
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 os.environ["SPARK_HOME"] = f"/content/{spark_version}-bin-hadoop3"
+
 # Start a SparkSession
 import findspark
 findspark.init()
+
 
 # Credit Risk Analysis Project
 
