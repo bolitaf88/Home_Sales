@@ -1,7 +1,7 @@
 # Home_Sales
 
 ### N/B The task was accomplished on Google Colab due to challenges encountered with installing PySpark on the local machine. 
-Initially, we installed `PySpark` for `Google Colab` using the following code. `Tip:` It's essential to ensure compatibility by selecting the version that aligns with your local machine's Python version. For instance, in my case, the Python version was `3.5.0.`
+Initially, we installed `PySpark` for `Google Colab` using the following code. `Tip:` It's essential to ensure compatibility by selecting the version that aligns with your local machine's Python version. For instance, in my case, the `Pyspark version` that aligned to my `python 3.11.5` is `3.5.0.`
 
 ```python
 import os
