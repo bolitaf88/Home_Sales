@@ -89,6 +89,6 @@ This assignment aimed to conduct data analysis using Spark DataFrames, focusing 
 
 ## Aknowledgements 
 - **Justin Bisal** - TA
-- **James NewMan** - TA
+- **James Newman** - TA
 - **Liang Yam** - TA
 
